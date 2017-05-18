@@ -1,0 +1,712 @@
+body 
+{
+	z-index: 5;
+	background:url("images/background.png");
+	background-color: #7F0606
+}
+@font-face
+{
+	font-family: : SignPainter;
+	src:url(sources/MyHelvetica.ttf);
+}
+*{margin: 0; padding:0;}
+#table_scroll_menu
+{
+	font-size:1.2vw;
+}
+#login
+{
+	width:80%;
+}
+#pass
+{
+	width:80%;
+}
+#banner_img
+{
+	z-index:12;
+	margin-top: 0.5vmin;
+	width: 100%;
+	border-bottom: 3px solid #7F0606;
+}
+*{margin: 0; padding:0;}
+#body_menu
+{
+	font-family: SignPainter;
+	padding-bottom: 0.4vw;
+	padding-top: 0.6vw;
+	color: #868FC1;
+	font-size:1.5vw;
+	z-index:3;
+	position: absolute;
+	margin-left: 80%;
+	margin-top: -24%;
+	width :8%;
+	background-color: black;
+	border: 1px solid #7F0606;
+	text-align:center;
+}
+#body_menu:hover
+{
+	width:20%;
+	margin-left: 72.5%;
+}
+#body_menu:hover #scroll_menu 
+{
+	display:block;
+	text-align:left;
+}
+#body_menu:hover #core
+{
+	margin-top: 1%;
+}
+#connexion
+{
+	z-index:1;
+	display:inline-block;
+}
+#scroll_menu
+{
+	padding-top: 0.4vw;
+	display: none;
+}
+table
+{
+	color:#868FC1;
+}
+*{margin: 0;padding:0;}
+#panier_menu a:link, #panier_menu a:visited
+{
+	font-family: SignPainter;
+	padding-bottom: 0.4vw;
+	padding-top: 0.6vw;
+	padding-right: 1vw;
+	color: #868FC1;
+	font-size:1.5vw;
+	text-decoration:none;
+	position:absolute;
+	z-index:2;
+	margin-left: 60%;
+	margin-top: -24%;
+	width :8vw;
+	background-color: black;
+	border: 1px solid #7F0606;
+	text-align:right;
+}
+#new_account_link
+{
+	padding-top: 0.4vw;
+	color:#928F8F;
+	text-align: center;
+	display: inline-block;
+	font-size: 1.0vw;
+}
+#new_account_link a:link, #new_account_link a:visited
+{
+	color:#868FC1;
+}
+#core
+{
+	top: 23.3vw;
+	left: 16.35%;
+	background-color: #2E0000;
+	z-index:11;
+	position:absolute;
+	width : 67%;
+	border: 2px solid #7F0606;
+	min-height: 50%;
+}
+#form
+{
+	display:inline-block;
+}
+#sort_by_type
+{
+	display: inline-block;
+	border:1px solid #7F0606;
+	font-family:arial;
+	color:white;
+	font-size: 1vw;
+	background-color: black;
+	text-align: center;
+	height: 2.5vw;
+	width: 10vw;
+	margin-top:  1vw;
+	margin-left: 1.6vw;
+}
+#sort_by_type_submit
+{
+	border-radius:3px;
+	border:1px solid #7F0606;
+	width:5vw;
+	height:2.5vw;
+	font-size: 1vw;
+	background-color: black;
+	font-family: arial;
+	color:white;
+}
+#sort_by
+{
+	position:absolute;
+	border:1px solid #7F0606;
+	font-family:arial;
+	color:white;
+	font-size: 1vw;
+	background-color: black;
+	text-align: center;
+	height: 2.5vw;
+	width: 11vw;
+	margin-top: -2.5vw;
+	margin-left: 46vw;
+	margin-bottom: 1.25vw;
+}
+#sort_by_submit
+{
+	position:absolute;
+	border-radius:3px;
+	border:1px solid #7F0606;
+	width:5vw;
+	height:2.5vw;
+	font-size: 1vw;
+	align-items: top;
+	background-color: black;
+	font-family: arial;
+	color:white;
+	margin-top: -2.5vw;
+	margin-left: 57.3vw;
+}
+
+.content
+{
+	display:inline-block;
+	background-color: #7F0606;
+	margin-left: 1.25vw;
+	margin-top: 1.25vw;
+	border: 1px solid #868FC1;
+	position:relative;
+	width: 20vw;
+	height: 20vw;
+	z-index:1;
+	margin-bottom: 1.25vw;
+}
+.content img
+{
+	display:inline-block;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:auto;
+}
+
+.panier_content
+{
+	display:block;
+	background-color: #7F0606;
+	margin-left: 1.25vw;
+	border: 1px solid #C2BDBD;
+	position:relative;
+	width: 16.45vw;
+	height: 9.25vw;
+	z-index:2;
+	margin-bottom: 1.25vw;
+}
+.panier_content img
+{
+	width:100%;
+	height:auto;
+}
+
+#panier
+{
+	margin-top: 3vw;
+	margin-left: 12vw;
+	font-size : 6vw;
+	background: -webkit-linear-gradient(white, #928F8F);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-shadow: -2px -2px #868FC1;
+	font-family: SignPainter;
+}
+#panier_black
+{
+	margin-left: 4vw;
+	height: 5vw;
+	width: auto;
+	z-index: 1;
+	margin-right: 2vw;
+}
+#panier_black_menu
+{
+	z-index: 1;
+	position:absolute;
+	margin-top: -0.35vw;
+	margin-left: -6.75vw;
+	height: 2vw;
+	width: auto;
+}
+.panier_item_name
+{
+	background-color: #7F0606;
+	margin-left: 18.5vw;
+	margin-top: -10.75vw;
+	border: 1px solid #C2BDBD;
+	border-radius: 8px;
+	position:absolute;
+	width: 25vw;
+	height: 9.5vw;
+	z-index:2;
+	margin-bottom: 1.25vw;
+	text-align: center;
+	line-height: 9.5vw;
+	font-family: SignPainter;
+	font-size:3vw;
+	color:#868FC1;
+	z-index:3;
+}
+.panier_item_color_text
+{
+	z-index:2;
+	line-height: 3vw;
+	background-color: #7F0606;
+	padding-top: 0.3vw;
+	border: 1px solid #C2BDBD;
+	margin-top: -10.75vw;
+	margin-left: 44.5vw;
+	height: 9.3vw;
+	width: 12vw;
+	position:absolute;
+	margin-right: 17.5vw;
+	text-align: center;
+	color:#868FC1;
+	font-family: SignPainter;
+	font-size: 1.7vw;
+	border-radius: 8px;
+}
+.panier_item_color
+{
+	z-index:1;
+	position:absolute;
+	margin-top: 2.5vw;
+	margin-left: -4.25vw;
+	border: 1px solid #C2BDBD;
+	background-color: white;
+	width:5vw;
+	height:5vw;
+	border-radius: 8px;
+}
+.destroy
+{
+	position:absolute;
+	width:6vw;
+	height: auto;
+	margin-left: 15vw;
+	margin-top: -3vw;
+	background: white;
+}
+
+#checkout_total
+{
+	background-color: #7F0606;
+	margin-left: 1.25vw;
+	border: 1px solid #C2BDBD;
+	border-radius: 8px;
+	position:absolute;
+	width: 25vw;
+	height: 5vw;
+	z-index:2;
+	margin-bottom: 1.25vw;
+	text-align: center;
+	line-height: 5vw;
+	font-family: SignPainter;
+	font-size:4vw;
+	color:#868FC1;
+	z-index:3;
+}
+#checkout_total_value
+{
+	display: block;
+	position:relative;
+	margin-left: 27.5vw;
+	background-color: #7F0606;
+	border: 1px solid #C2BDBD;
+	font-family: SignPainter;
+	font-size:3vw;
+	line-height: 5vw;
+	text-align: center;
+	color:#868FC1;
+	width: 15vw;
+	height: 5vw;
+	z-index:1;
+	margin-bottom: 1.25vw;
+	border-radius: 8px;
+}
+#valid_panier
+{
+	position: absolute;
+	font-family: SignPainter;
+	font-size:2.25vw;
+	color:white;
+	line-height: 2vw;
+	text-align: center;
+	background-color: green;
+	width: 12.25vw;
+	margin-left: 1.25vw;
+	margin-top: -3.25vw;
+	height:5vw;
+	border-radius: -31vw;
+}
+#valid_panier_inscription
+{
+	text-decoration: none;
+	position: absolute;
+	font-family: SignPainter;
+	font-size:1.25vw;
+	color:white;
+	line-height: 2.5vw;
+	text-align: center;
+	background-color: green;
+	width: 12.25vw;
+	margin-left: 1.25vw;
+	margin-top: -3.25vw;
+	height:5vw;
+}
+.brandname
+{
+	z-index:1;
+	margin-left: -20vw;
+	margin-top: 11.25vw;
+	height:5.75vw;
+	width:45%;
+	text-align: center;
+	line-height: 5.75vw;
+	font-family: SignPainter;
+	font-size:2.5vw;
+	background-color: black;
+	position:absolute;
+	border:1px solid #868FC1;
+	color:green;
+}
+.carname
+{
+	padding-top: 0.5vw;
+	z-index:1;
+	text-align: center;
+	margin-left: -11.1vw;
+	margin-top: 11.25vw;
+	position:absolute;
+	font-family: SignPainter;
+	font-size:2.5vw;
+	width:55%;
+	background-color: black;
+	border:1px solid #868FC1;
+	color:white;
+	height:5.25vw;
+}
+.price
+{
+	background-color: #7F0606;
+	display:inline-block;
+	position: relative;
+	width:100%;
+	text-align: center;
+	line-height: 2.85vw;
+	height:2.85vw;
+	margin-top: 5.85vw;
+	color:white;
+	font-family: SignPainter;
+	font-size:2.5vw;
+}
+#register_table
+{
+	border-spacing: 1.5vw;
+}
+.register_td
+{
+	margin-left: 3vw;
+	text-align: left;
+	padding-left: 3vw;
+	font-family: SignPainter;
+	font-size:2.5vw;
+	background-color: black;
+	border:1px solid #868FC1;
+	line-height:4vw;
+	width: 35vw;
+}
+.register_input
+{
+	background-color: black;
+	border:1px solid #868FC1;
+	color: #868FC1;
+	height: 4.2vw;
+	width:28vw;
+	padding-left: 1vw;
+	font-family: SignPainter;
+	font-size:2.5vw;
+	background-color: black;
+	display: inline-block;
+}
+#register_submit
+{
+	position: absolute;
+	width:15vw;
+	font-size: 2.5vw;
+	margin-left: 26vw;
+	margin-top: 5vw;
+	background-color: black;
+	border:1px solid #868FC1;
+	color: #868FC1;
+	height: 4vw;
+	font-family: SignPainter;
+}
+#description_car_price
+{
+	font-family: SignPainter;
+	font-size:2.5vw;
+	height:6vw;
+	line-height: 4vw;
+	color:white;
+	display: inline-block;
+	margin-top: 1.5vw;
+	text-align: center;
+}
+#description_car_name
+{
+	margin-left: 1.5vw;
+	line-height: 6vw;
+	width:30vw;
+	font-size: 4vw;
+}
+#description_price
+{
+	margin-top: -5vw;
+	margin-left: 50vw;
+	width: 15vw;
+
+}
+
+#description_colors
+{
+	padding-top: 1.5vw;
+	padding-right: 1.5vw;
+	display:inline-block;
+	font-family: SignPainter;
+	text-align: center;
+	font-size:3.5vw;
+	color:white;
+	margin-left: 1.5vw;
+	margin-top: -22vw;
+	height:25vw;
+	width:25vw;
+}
+#description_colors input
+{
+	display: inline-block;
+	margin-top: 2.5vw;
+	margin-left: 1.75vw;
+	height:3.5vw;
+	width:3.5vw;
+	border-radius:100%;
+}
+#description_colors div
+{
+	display: inline-block;
+	margin-top: 2.5vw;
+	margin-left: 1.75vw;
+	height:3.5vw;
+	width:3.5vw;
+	border-radius:100%;
+}
+#RED
+{
+	background-color:#B00000;
+	border:1px solid white;
+}
+#PINK
+{
+	background-color:#E5008B;
+	border:1px solid white;
+}
+#YELLOW
+{
+	background-color:#FDFF00;
+	border:1px solid white;
+}
+#ORANGE
+{
+	background-color:#F3A600;
+	border:1px solid white;
+}
+#GREEN
+{
+	background-color:#63E226;
+	border:1px solid white;
+}
+#BLUE
+{
+	background-color:#0E57BD;
+	border:1px solid white;
+}
+#BLACK
+{
+	background-color:#1C1C1C;
+	border:1px solid white;
+}
+#WHITE
+{
+	background-color:#FEFEFC;
+	border:1px solid white;
+}
+#stats
+{
+	margin-left: 5.5vw;
+	font-family: SignPainter;
+	color:white;
+	font-size: 4vw;
+}
+#description_stats_table
+{
+	color:white;
+	font-size: 2.5vw;
+	width:22vw;
+}
+.description_stats
+{
+	margin-left: 2vw;
+	font-size:2vw;
+}
+#description_image
+{
+	border:1px solid white;
+	border-radius:1vw;
+	margin-top: 5.5vw;
+	margin-left: 28.5vw;
+	width: 35vw;
+	height:auto;
+}
+#description_panier_black
+{
+	float:left;
+	height:8vw;
+	color:white;
+	width:auto;
+	margin-right: 1.5vw;
+}
+#description_order
+{
+	font-family: SignPainter;
+	color:white;
+	font-size: 6.5vw;
+	margin-left: 35.5vw;
+	margin-top: -10vw;
+	background-color: #7F0606;
+	width:25vw;
+	height:8vw;
+	border:1px solid white;
+	line-height: 8vw
+}
+#description_pick_color
+{
+	font-family: SignPainter;
+	color:white;
+	font-size: 4vw;
+	margin-left: 35.5vw;
+	margin-top: -10vw;
+	background-color: #7F0606;
+	text-align: center;
+	width:22vw;
+	height:8vw;
+	border:1px solid white;
+	line-height: 4vw
+}
+#admin_select_task
+{
+	display: inline-block;
+	border:1px solid #7F0606;
+	font-family:arial;
+	color:white;
+	font-size: 1vw;
+	background-color: black;
+	text-align: center;
+	height: 2.5vw;
+	width: 15vw;
+	margin-top:  1vw;
+	margin-left: 1.6vw;
+}
+.commandes
+{
+	font-size: 1vw;
+	margin-top: 0.5vw;
+	margin-left: 5%;
+	width: 85%;
+	height: 1.25vw;
+	background-color: white;
+}
+.commandes div
+{
+	display: inline-block;
+}
+.admin_destroy
+{
+	float:right;
+	margin-top: -1.25vw;
+	margin-right: 1vw;
+	width:auto;
+	height:1.25vw;
+	border:1px solid white;
+}
+.compte
+{
+	font-size: 1vw;
+	margin-top: 0.5vw;
+	margin-left: 5%;
+	width:85%;
+	height: 1.25vw;
+	background-color: white;
+}
+.compte div
+{
+	display: inline-block;
+}
+.admin_view
+{
+	float:right;
+	margin-top: -1.25vw;
+	margin-right: 1vw;
+	width:auto;
+	height:1.25vw;
+	border:1px solid white;
+}
+.produits
+{
+	margin-top: -20vmin;
+	margin-left: 3.5vmin;
+	background-color: white;
+	height:35vmin;
+}
+.produits input
+{
+	width: 65%;
+	margin-left: 12%;
+	align-content: right;
+}
+#add_brand
+{
+	margin-top: 1.5vw ;
+	font-size: 1vmax;
+	background-color: white;
+	margin-left: 3.5vmin;
+	height: 3vw;
+	width:35vw;
+	line-height: 3vw;
+
+}
+
+#info_message
+{
+    color:red;
+    display:inline-block;
+    width:100%;
+    text-align:center;
+    line-height:3vw;
+    vertical-align:middle;
+}
